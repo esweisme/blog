@@ -3,9 +3,14 @@
 <h1>{{ .Title }}</h1>
 <div>{{ .Content }}</div>
 
-<span>dibuat : {{.Date.Format "2006-01-02"}} </span>
+{{ if .Params.hal }}
+
+{{ else }}
+	<span>dibuat : {{.Date.Format "2006-01-02"}}</span>
+{{ end }}
+
 <br>
-{{ with .Params.tags}}
+{{ with .Params.tags }}
 	tags :
 	{{range .}}
 
