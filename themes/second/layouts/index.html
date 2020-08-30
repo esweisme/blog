@@ -6,7 +6,7 @@
 
 	<h4>daftar blog</h4>
 	<ul>
-		 {{ range where .Site.RegularPages "Section" "blogs" }}
+		 {{ range where .Site.RegularPages "Section" "blog" }}
 
 		 <li>
 		 	<a href="{{.Permalink}}"> {{.Title}}</a>
@@ -19,7 +19,7 @@
 
 	<h4>daftar catatan</h4>
 	<ul>
-		 {{ range where .Site.RegularPages "Section" "catatan" }}
+		 {{ range where .Site.RegularPages "Section" "note" }}
 
 		 <li>
 		 	<a href="{{.Permalink}}"> {{.Title}}</a>
