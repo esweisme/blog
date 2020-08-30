@@ -7,7 +7,7 @@ tags:
 - wp
 - wordpress
 description: supaya wordpress tidak minta FTP saat self hosting
-hal : true
+
 
 ---
 Pernahkah kalian saat ingin update ataupun install tema maupun plugin di wordpress namun muncul permintaan akun FTP ? Padahal, kita tidak pernah tau ataupun men-setting akun FTP pada wordpress.
