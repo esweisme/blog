@@ -1,10 +1,9 @@
 <head>
     <title>{{.Title}}</title>
-
-    {{ if eq .Kind "section" }}
-		<meta name="description" content="ini deskripsi halaman section {{.Section}}"/>        
-	{{ else }}
-		<meta name="description" content="{{ if .Description }} {{ .Description }} {{ else }} {{ .Site.Params.Description }} {{end}} "/>
-	{{ end }}
+{{ if eq .Kind "section" }}
+	<meta name="description" content="ini deskripsi halaman section {{.Section}}"/>        
+{{ else }}
+	<meta name="description" content="{{ if .Description }} {{ .Description }} {{ else }} {{ .Site.Params.Description }} {{end}} "/>
+{{ end }}
     
 </head>
