@@ -2,7 +2,7 @@
 title: wordpress minta FTP akun saat update
 date: 2020-08-28T14:28:39.000+08:00
 
-category: catatan
+categories: catatan
 tags:
 - wp
 - wordpress
