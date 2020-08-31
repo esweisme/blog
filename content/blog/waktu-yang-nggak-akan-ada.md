@@ -4,8 +4,8 @@ date = 2020-08-30T10:10:00Z
 description = "kenapa harus menunggu"
 categories = "blog"
 tags = []
-
 +++
+
 Tidak perlu menunggu waktu yang tidak akan pernah datang.
 
 Waktu kita merasa **suci** untuk mengajak kebaikan.

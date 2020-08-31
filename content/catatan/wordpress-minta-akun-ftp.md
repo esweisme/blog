@@ -1,5 +1,5 @@
 ---
-title: wordpress minta FTP akun saat update
+title: Wordpress minta FTP akun saat update
 date: 2020-08-28T14:28:39.000+08:00
 categories: catatan
 description: cara agar wordpress self hosting tidak minta akun FTP saat self hosting
