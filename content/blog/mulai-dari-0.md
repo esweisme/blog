@@ -1,6 +1,6 @@
 +++
 categories = "blog"
-date = 2020-08-31T05:27:45Z
+date = 2019-12-08T05:27:45Z
 description = "perlukan membuat semuanya dari awal"
 tags = []
 title = "Mulai Dari 0"
