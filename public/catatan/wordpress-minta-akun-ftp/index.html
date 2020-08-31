@@ -2,7 +2,7 @@
 <html><head>
     <title>wordpress minta FTP akun saat update</title>
 
-	<meta name="description" content=" supaya wordpress tidak minta FTP saat self hosting  "/>
+	<meta name="description" content=" cara agar wordpress self hosting tidak minta akun FTP saat self hosting  "/>
 
 
 <link rel="stylesheet" href="/css/bootstrap.min.css" >
@@ -28,7 +28,6 @@
 <p>Biasanya ini terjadi pada web yang menggunakan CMS wordpress dan hosting sendiri</p>
 <p>Anda Hanya perlu membahkan baris berikut</p>
 <pre><code>/* Sets up direct update and install. */
-
 define('FS_METHOD', 'direct');
 </code></pre>
 <p>pada file wp-config.php yang ada di folder utama aplikasi web wordpress.</p>
