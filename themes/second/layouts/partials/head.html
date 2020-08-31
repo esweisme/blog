@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{.Title}}</title>
 {{ if eq .Kind "section" }}
-	<meta name="description" content="ini deskripsi halaman section {{.Section}}"/>        
+	<meta name="description" content="{{.Summary}}"/>        
 {{ else }}
 	<meta name="description" content="{{ if .Description }}{{.Description}}{{ else }}{{.Site.Params.Description}}{{end}}"/>
 {{ end }}
@@ -12,19 +12,19 @@
 
 	<!-- Google / Search Engine Tags -->
 	<meta itemprop="name" content="{{.Title}}">
-	<meta itemprop="description" content="{{ if .Description }}{{.Description}}{{ else }}{{.Site.Params.Description}}{{end}}">
+	<meta itemprop="description" content="{{ if .Description }}{{.Description}}{{ else if .Summary}}{{.Summary}}{{else}}{{.Site.Params.Description}}{{end}}">
 	<meta itemprop="image" content="{{ .Site.BaseURL }}images/logo.JPG">
 
 	<!-- Facebook Meta Tags -->
 	<meta property="og:url" content="<?php echo BASE_URL; echo $uri; ?>">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="{{.Title}}">
-	<meta property="og:description" content="{{ if .Description }}{{.Description}}{{ else }}{{.Site.Params.Description}}{{end}}">
+	<meta property="og:description" content="{{ if .Description }}{{.Description}}{{ else if .Summary}}{{.Summary}}{{else}}{{.Site.Params.Description}}{{end}}">
 	<meta property="og:image" content="{{ .Site.BaseURL }}images/logo.JPG">
 
 	<!-- Twitter Meta Tags -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="{{.Title}}">
-	<meta name="twitter:description" content="{{ if .Description }}{{.Description}}{{ else }}{{.Site.Params.Description}}{{end}}">
+	<meta name="twitter:description" content="{{ if .Description }}{{.Description}}{{ else if .Summary}}{{.Summary}}{{else}}{{.Site.Params.Description}}{{end}}">
 	<meta name="twitter:image" content="{{ .Site.BaseURL }}images/logo.JPG">
 </head>

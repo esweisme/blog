@@ -2,6 +2,9 @@
 
 <main>
 	<div class="content">
+		{{ if .Params.Pembuka }}
+		<p class="sapa">{{ .Params.Pembuka }}</p>
+		{{end}}
 		<h3>{{ .Title }}</h3>
 		<div class="list-post">
 			{{ range .Pages }}
