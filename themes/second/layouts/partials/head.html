@@ -3,7 +3,7 @@
 {{ if eq .Kind "section" }}
 	<meta name="description" content="ini deskripsi halaman section {{.Section}}"/>        
 {{ else }}
-	<meta name="description" content="{{ if .Description }} {{.Description}} {{ else }} {{.Site.Params.Description}} {{end}} "/>
+	<meta name="description" content="{{ if .Description }}{{.Description}}{{ else }}{{.Site.Params.Description}}{{end}} "/>
 {{ end }}
 <link href="/images/logo.JPG" rel="icon">
 <link rel="stylesheet" href="/css/bootstrap.min.css" >
