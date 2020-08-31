@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kesempatan Kedua new</title>
+    <link>https://sigitwahyudi.netlify.app/</link>
+    <description>Recent content on Kesempatan Kedua new</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Aug 2020 10:10:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sigitwahyudi.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Waktu Yang Nggak Akan Ada</title>
+      <link>https://sigitwahyudi.netlify.app/blog/waktu-yang-nggak-akan-ada/</link>
+      <pubDate>Sun, 30 Aug 2020 10:10:00 +0000</pubDate>
+      
+      <guid>https://sigitwahyudi.netlify.app/blog/waktu-yang-nggak-akan-ada/</guid>
+      <description>Tidak perlu menunggu waktu yang tidak akan pernah datang.
+Waktu kita merasa suci untuk mengajak kebaikan.
+Waktu kita merasa sangat pandai untuk mulai berbagi.
+Waktu dimana kita merasa hebat untuk membuat suatu yang besar.
+Mulailah, lakukan sekarang. Jangan menunggu waktu yang tidak akan pernah datang.</description>
+    </item>
+    
+    <item>
+      <title>coba dengan gambar</title>
+      <link>https://sigitwahyudi.netlify.app/catatan/coba-dengan-gambar/</link>
+      <pubDate>Sun, 30 Aug 2020 04:03:00 +0000</pubDate>
+      
+      <guid>https://sigitwahyudi.netlify.app/catatan/coba-dengan-gambar/</guid>
+      <description>coba gambar jek</description>
+    </item>
+    
+    <item>
+      <title>apakah netlify langsung</title>
+      <link>https://sigitwahyudi.netlify.app/catatan/apakah-netlify-langsung/</link>
+      <pubDate>Sat, 29 Aug 2020 16:00:00 +0000</pubDate>
+      
+      <guid>https://sigitwahyudi.netlify.app/catatan/apakah-netlify-langsung/</guid>
+      <description>apakah langsung netlify. o-ke sip</description>
+    </item>
+    
+    <item>
+      <title>catatan dengan forestry</title>
+      <link>https://sigitwahyudi.netlify.app/catatan/catatan-dengan-forestry/</link>
+      <pubDate>Sat, 29 Aug 2020 16:00:00 +0000</pubDate>
+      
+      <guid>https://sigitwahyudi.netlify.app/catatan/catatan-dengan-forestry/</guid>
+      <description>di buat dengan forestry</description>
+    </item>
+    
+    <item>
+      <title>hari minggu belajar hugo dan forestry</title>
+      <link>https://sigitwahyudi.netlify.app/blog/hari-minggu-belajar-hugo-dan-forestry/</link>
+      <pubDate>Sat, 29 Aug 2020 16:00:00 +0000</pubDate>
+      
+      <guid>https://sigitwahyudi.netlify.app/blog/hari-minggu-belajar-hugo-dan-forestry/</guid>
+      <description>ini pake forestry lalu di pull dulu. baru deploy.sh</description>
+    </item>
+    
+    <item>
+      <title>Buku</title>
+      <link>https://sigitwahyudi.netlify.app/catatan/buku/</link>
+      <pubDate>Fri, 28 Aug 2020 14:39:05 +0800</pubDate>
+      
+      <guid>https://sigitwahyudi.netlify.app/catatan/buku/</guid>
+      <description>catatan pertama saya pada web ini
+by forestry
+lagiii</description>
+    </item>
+    
+    <item>
+      <title>Kontak</title>
+      <link>https://sigitwahyudi.netlify.app/kontak/</link>
+      <pubDate>Fri, 28 Aug 2020 14:28:39 +0800</pubDate>
+      
+      <guid>https://sigitwahyudi.netlify.app/kontak/</guid>
+      <description>Hubungi saya pada twitter saya @eswetwit</description>
+    </item>
+    
+    <item>
+      <title>wordpress minta FTP akun saat update</title>
+      <link>https://sigitwahyudi.netlify.app/catatan/wordpress-minta-akun-ftp/</link>
+      <pubDate>Fri, 28 Aug 2020 14:28:39 +0800</pubDate>
+      
+      <guid>https://sigitwahyudi.netlify.app/catatan/wordpress-minta-akun-ftp/</guid>
+      <description>Pernahkah kalian saat ingin update ataupun install tema maupun plugin di wordpress namun muncul permintaan akun FTP ? Padahal, kita tidak pernah tau ataupun men-setting akun FTP pada wordpress.
+Biasanya ini terjadi pada web yang menggunakan CMS wordpress dan hosting sendiri
+Anda Hanya perlu membahkan baris berikut
+/* Sets up direct update and install. */define(&#39;FS_METHOD&#39;, &#39;direct&#39;); pada file wp-config.php yang ada di folder utama aplikasi web wordpress.</description>
+    </item>
+    
+    <item>
+      <title>Belajar Hugo</title>
+      <link>https://sigitwahyudi.netlify.app/blog/belajar-hugo/</link>
+      <pubDate>Fri, 28 Aug 2020 14:17:15 +0800</pubDate>
+      
+      <guid>https://sigitwahyudi.netlify.app/blog/belajar-hugo/</guid>
+      <description>ini adalah file pertama tentang hugo</description>
+    </item>
+    
+  </channel>
+</rss>

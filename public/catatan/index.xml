@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Catatans on Kesempatan Kedua new</title>
+    <link>https://sigitwahyudi.netlify.app/catatan/</link>
+    <description>Recent content in Catatans on Kesempatan Kedua new</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Aug 2020 04:03:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sigitwahyudi.netlify.app/catatan/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>coba dengan gambar</title>
+      <link>https://sigitwahyudi.netlify.app/catatan/coba-dengan-gambar/</link>
+      <pubDate>Sun, 30 Aug 2020 04:03:00 +0000</pubDate>
+      
+      <guid>https://sigitwahyudi.netlify.app/catatan/coba-dengan-gambar/</guid>
+      <description>coba gambar jek</description>
+    </item>
+    
+    <item>
+      <title>apakah netlify langsung</title>
+      <link>https://sigitwahyudi.netlify.app/catatan/apakah-netlify-langsung/</link>
+      <pubDate>Sat, 29 Aug 2020 16:00:00 +0000</pubDate>
+      
+      <guid>https://sigitwahyudi.netlify.app/catatan/apakah-netlify-langsung/</guid>
+      <description>apakah langsung netlify. o-ke sip</description>
+    </item>
+    
+    <item>
+      <title>catatan dengan forestry</title>
+      <link>https://sigitwahyudi.netlify.app/catatan/catatan-dengan-forestry/</link>
+      <pubDate>Sat, 29 Aug 2020 16:00:00 +0000</pubDate>
+      
+      <guid>https://sigitwahyudi.netlify.app/catatan/catatan-dengan-forestry/</guid>
+      <description>di buat dengan forestry</description>
+    </item>
+    
+    <item>
+      <title>Buku</title>
+      <link>https://sigitwahyudi.netlify.app/catatan/buku/</link>
+      <pubDate>Fri, 28 Aug 2020 14:39:05 +0800</pubDate>
+      
+      <guid>https://sigitwahyudi.netlify.app/catatan/buku/</guid>
+      <description>catatan pertama saya pada web ini
+by forestry
+lagiii</description>
+    </item>
+    
+    <item>
+      <title>wordpress minta FTP akun saat update</title>
+      <link>https://sigitwahyudi.netlify.app/catatan/wordpress-minta-akun-ftp/</link>
+      <pubDate>Fri, 28 Aug 2020 14:28:39 +0800</pubDate>
+      
+      <guid>https://sigitwahyudi.netlify.app/catatan/wordpress-minta-akun-ftp/</guid>
+      <description>Pernahkah kalian saat ingin update ataupun install tema maupun plugin di wordpress namun muncul permintaan akun FTP ? Padahal, kita tidak pernah tau ataupun men-setting akun FTP pada wordpress.
+Biasanya ini terjadi pada web yang menggunakan CMS wordpress dan hosting sendiri
+Anda Hanya perlu membahkan baris berikut
+/* Sets up direct update and install. */define(&#39;FS_METHOD&#39;, &#39;direct&#39;); pada file wp-config.php yang ada di folder utama aplikasi web wordpress.</description>
+    </item>
+    
+  </channel>
+</rss>

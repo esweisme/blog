@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wp on Kesempatan Kedua new</title>
+    <link>https://sigitwahyudi.netlify.app/tags/wp/</link>
+    <description>Recent content in wp on Kesempatan Kedua new</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Aug 2020 14:28:39 +0800</lastBuildDate>
+    
+	<atom:link href="https://sigitwahyudi.netlify.app/tags/wp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>wordpress minta FTP akun saat update</title>
+      <link>https://sigitwahyudi.netlify.app/catatan/wordpress-minta-akun-ftp/</link>
+      <pubDate>Fri, 28 Aug 2020 14:28:39 +0800</pubDate>
+      
+      <guid>https://sigitwahyudi.netlify.app/catatan/wordpress-minta-akun-ftp/</guid>
+      <description>Pernahkah kalian saat ingin update ataupun install tema maupun plugin di wordpress namun muncul permintaan akun FTP ? Padahal, kita tidak pernah tau ataupun men-setting akun FTP pada wordpress.
+Biasanya ini terjadi pada web yang menggunakan CMS wordpress dan hosting sendiri
+Anda Hanya perlu membahkan baris berikut
+/* Sets up direct update and install. */define(&#39;FS_METHOD&#39;, &#39;direct&#39;); pada file wp-config.php yang ada di folder utama aplikasi web wordpress.</description>
+    </item>
+    
+  </channel>
+</rss>

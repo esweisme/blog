@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html><head>
+    <title>wordpress minta FTP akun saat update</title>
+
+	<meta name="description" content=" supaya wordpress tidak minta FTP saat self hosting  "/>
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css" >
+    
+</head><body>
+    	<div class="container"><ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link" href="/">Beranda</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/blog">Blog</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/catatan">Catatan</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/kontak">Kontak</a>
+  </li>
+</ul><div id="content">
+
+<h1>wordpress minta FTP akun saat update</h1>
+<div><p>Pernahkah kalian saat ingin update ataupun install tema maupun plugin di wordpress namun muncul permintaan akun FTP ? Padahal, kita tidak pernah tau ataupun men-setting akun FTP pada wordpress.</p>
+<p>Biasanya ini terjadi pada web yang menggunakan CMS wordpress dan hosting sendiri</p>
+<p>Anda Hanya perlu membahkan baris berikut</p>
+<pre><code>/* Sets up direct update and install. */
+
+define('FS_METHOD', 'direct');
+</code></pre>
+<p>pada file wp-config.php yang ada di folder utama aplikasi web wordpress.</p>
+</div>
+
+
+	<span>dibuat : 2020-08-28</span>
+
+
+<br>
+
+	tags :
+	
+
+		<a href="/tags/wp">wp</a>
+
+	
+
+		<a href="/tags/wordpress">wordpress</a>
+
+	
+
+
+
+
+
+	        </div><hr>
+<div>kesempatan kedua with love</div>
+</div>
+    </body>
+</html>
