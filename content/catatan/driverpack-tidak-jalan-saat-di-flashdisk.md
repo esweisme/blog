@@ -1,6 +1,6 @@
 +++
 categories = "catatan"
-date = 2020-08-31T05:35:51Z
+date = 2019-05-17T05:35:51Z
 description = "mengatasi driverpack tidak berfungsi"
 tags = ["windows"]
 title = "Driverpack Tidak Jalan Saat Di Flashdisk"
