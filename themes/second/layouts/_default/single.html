@@ -10,15 +10,19 @@
 {{ end }}
 
 <br>
-{{ with .Params.tags }}
-	tags :
-	{{range .}}
 
-		<a href="/tags/{{. | urlize }}">{{ . }}</a>
-
-	{{end}}
-
+<br>
+{{ if .Params.categories }}
+	kategori :
+		<a href="/categories/{{.Params.Categories }}">{{ .Params.Categories }}</a>
 {{end}}
 
+{{ with .Params.tags }}
+tag :
+    {{range .}}
+          <a href="/tags/{{ . | urlize }}">{{ . }}</a>
+    {{end}}
+
+{{ end }}
 
 {{ end }}
