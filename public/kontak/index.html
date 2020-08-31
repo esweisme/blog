@@ -6,41 +6,59 @@
 
 	<link href="/images/logo.JPG" rel="icon">
 	<link rel="stylesheet" href="/css/bootstrap.min.css" >
-    
-</head><body>
-    	<div class="container"><ul class="nav justify-content-end">
-  <li class="nav-item">
-    <a class="nav-link" href="/">Beranda</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/blog">Blog</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/catatan">Catatan</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/kontak">Kontak</a>
-  </li>
-</ul><div id="content">
+	<link rel="stylesheet" href="/css/style.css" >
+</head><body><header>
+    <p class="judul-web">Web Sigit Wahyudi</p>
+        <p class="deskripsi">Sesuatu yang besar, Berasal dari Hal Yang Sederhana</p>
+  </header>
+    <button class="tombol"><span>menu</span> &#9663;</button>
+  <nav>
+    <ul>
+      <li><a href="/">Beranda</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/catatan">Catatan</a></li>
+      <li><a href="/kontak">Kontak</a></li>
+    </ul>
+  </nav>
 
-<h1>Kontak</h1>
-<div><p>Hubungi saya pada twitter saya <a href="https://www.twitter.com/eswetwit" title="lihat twiiter saya">@eswetwit</a></p>
-</div>
+<main>
+	<div class="content">
+		<h3>Kontak</h3>
 
+		<p><p>Hubungi saya pada twitter saya <a href="https://www.twitter.com/eswetwit" title="lihat twiiter saya">@eswetwit</a></p>
+</p>
 
+		
 
+		
 
-
-<br>
-
-<br>
-
-
+		
+		
 
 
 
-	        </div><hr>
-<div>kesempatan kedua with love</div>
-</div>
-    </body>
+	</div>
+</main>
+
+
+
+<footer>
+	<p>&copy;
+	 	<a style="color: black;" href="mailto:wahyudi.sigit@gmail.com">esweisme</a> 2019. 
+		
+		<a style="color: black;" href="#">rss</a>
+		<br>
+		Apa yang dari &#128151; akan sampai ke &#128151;.
+	</p>
+</footer>
+
+	<script type="text/javascript" src="/js/jquery-3.3.1.slim.min.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.tombol').click(function(){
+				$('nav').toggleClass("menu-tampil");
+			});
+		});
+	</script></body>
 </html>

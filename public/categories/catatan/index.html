@@ -6,39 +6,49 @@
 
 	<link href="/images/logo.JPG" rel="icon">
 	<link rel="stylesheet" href="/css/bootstrap.min.css" >
-    
-</head><body>
-    	<div class="container"><ul class="nav justify-content-end">
-  <li class="nav-item">
-    <a class="nav-link" href="/">Beranda</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/blog">Blog</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/catatan">Catatan</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/kontak">Kontak</a>
-  </li>
-</ul><div id="content">
+	<link rel="stylesheet" href="/css/style.css" >
+</head><body><header>
+    <p class="judul-web">Web Sigit Wahyudi</p>
+        <p class="deskripsi">Sesuatu yang besar, Berasal dari Hal Yang Sederhana</p>
+  </header>
+    <button class="tombol"><span>menu</span> &#9663;</button>
+  <nav>
+    <ul>
+      <li><a href="/">Beranda</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/catatan">Catatan</a></li>
+      <li><a href="/kontak">Kontak</a></li>
+    </ul>
+  </nav>
 
-<h1>daftar catatan</h1>
+<main>
+	<div class="content">
+		<h3>catatan</h3>
+		<div class="list-post">
+			
+			 	<a href="https://sigitwahyudi.netlify.app/catatan/wordpress-minta-akun-ftp/">Wordpress minta FTP akun saat update</a>	 
+			 
+		</div>
+	</div>
+</main>
 
-<ul>
-	 
+<footer>
+	<p>&copy;
+	 	<a style="color: black;" href="mailto:wahyudi.sigit@gmail.com">esweisme</a> 2019. 
+		
+		<a style="color: black;" href="#">rss</a>
+		<br>
+		Apa yang dari &#128151; akan sampai ke &#128151;.
+	</p>
+</footer>
 
-	 <li>
-	 	<a href="https://sigitwahyudi.netlify.app/catatan/wordpress-minta-akun-ftp/"> Wordpress minta FTP akun saat update</a>
-	 	<span> 2020-08-28</span>
-	 </li>
-
-	 
-</ul>
-
-
-	        </div><hr>
-<div>kesempatan kedua with love</div>
-</div>
-    </body>
+	<script type="text/javascript" src="/js/jquery-3.3.1.slim.min.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.tombol').click(function(){
+				$('nav').toggleClass("menu-tampil");
+			});
+		});
+	</script></body>
 </html>

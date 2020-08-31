@@ -6,48 +6,66 @@
 
 	<link href="/images/logo.JPG" rel="icon">
 	<link rel="stylesheet" href="/css/bootstrap.min.css" >
-    
-</head><body>
-    	<div class="container"><ul class="nav justify-content-end">
-  <li class="nav-item">
-    <a class="nav-link" href="/">Beranda</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/blog">Blog</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/catatan">Catatan</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/kontak">Kontak</a>
-  </li>
-</ul><div id="content">
+	<link rel="stylesheet" href="/css/style.css" >
+</head><body><header>
+    <p class="judul-web">Web Sigit Wahyudi</p>
+        <p class="deskripsi">Sesuatu yang besar, Berasal dari Hal Yang Sederhana</p>
+  </header>
+    <button class="tombol"><span>menu</span> &#9663;</button>
+  <nav>
+    <ul>
+      <li><a href="/">Beranda</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/catatan">Catatan</a></li>
+      <li><a href="/kontak">Kontak</a></li>
+    </ul>
+  </nav>
 
-<h1>Waktu Yang Nggak Akan Ada</h1>
-<div><p>Tidak perlu menunggu waktu yang tidak akan pernah datang.</p>
+<main>
+	<div class="content">
+		<h3>Waktu Yang Nggak Akan Ada</h3>
+
+		<p><p>Tidak perlu menunggu waktu yang tidak akan pernah datang.</p>
 <p>Waktu kita merasa <strong>suci</strong> untuk mengajak kebaikan.</p>
 <p>Waktu kita merasa sangat <strong>pandai</strong> untuk mulai berbagi.</p>
 <p>Waktu dimana kita merasa <strong>hebat</strong> untuk membuat suatu yang besar.</p>
 <p>Mulailah, lakukan sekarang. Jangan menunggu waktu yang tidak akan pernah datang.</p>
-</div>
+</p>
 
+		
+			<span>dibuat : 2020-08-30</span>
+		
 
-	<span>dibuat : 2020-08-30</span>
-
-
-<br>
-
-<br>
-
-	kategori :
-		<a href="/categories/blog">blog</a>
-
-
+		
+			kategori :
+				<a href="/categories/blog">blog</a>
+		
+		
 
 
 
-	        </div><hr>
-<div>kesempatan kedua with love</div>
-</div>
-    </body>
+	</div>
+</main>
+
+
+
+<footer>
+	<p>&copy;
+	 	<a style="color: black;" href="mailto:wahyudi.sigit@gmail.com">esweisme</a> 2019. 
+		
+		<a style="color: black;" href="#">rss</a>
+		<br>
+		Apa yang dari &#128151; akan sampai ke &#128151;.
+	</p>
+</footer>
+
+	<script type="text/javascript" src="/js/jquery-3.3.1.slim.min.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.tombol').click(function(){
+				$('nav').toggleClass("menu-tampil");
+			});
+		});
+	</script></body>
 </html>

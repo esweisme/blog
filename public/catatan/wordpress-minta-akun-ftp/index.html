@@ -6,58 +6,76 @@
 
 	<link href="/images/logo.JPG" rel="icon">
 	<link rel="stylesheet" href="/css/bootstrap.min.css" >
-    
-</head><body>
-    	<div class="container"><ul class="nav justify-content-end">
-  <li class="nav-item">
-    <a class="nav-link" href="/">Beranda</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/blog">Blog</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/catatan">Catatan</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/kontak">Kontak</a>
-  </li>
-</ul><div id="content">
+	<link rel="stylesheet" href="/css/style.css" >
+</head><body><header>
+    <p class="judul-web">Web Sigit Wahyudi</p>
+        <p class="deskripsi">Sesuatu yang besar, Berasal dari Hal Yang Sederhana</p>
+  </header>
+    <button class="tombol"><span>menu</span> &#9663;</button>
+  <nav>
+    <ul>
+      <li><a href="/">Beranda</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/catatan">Catatan</a></li>
+      <li><a href="/kontak">Kontak</a></li>
+    </ul>
+  </nav>
 
-<h1>Wordpress minta FTP akun saat update</h1>
-<div><p>Pernahkah kalian saat ingin update ataupun install tema maupun plugin di wordpress namun muncul permintaan akun FTP ? Padahal, kita tidak pernah tau ataupun men-setting akun FTP pada wordpress.</p>
+<main>
+	<div class="content">
+		<h3>Wordpress minta FTP akun saat update</h3>
+
+		<p><p>Pernahkah kalian saat ingin update ataupun install tema maupun plugin di wordpress namun muncul permintaan akun FTP ? Padahal, kita tidak pernah tau ataupun men-setting akun FTP pada wordpress.</p>
 <p>Biasanya ini terjadi pada web yang menggunakan CMS wordpress dan hosting sendiri</p>
 <p>Anda Hanya perlu membahkan baris berikut</p>
 <pre><code>/* Sets up direct update and install. */
 define('FS_METHOD', 'direct');
 </code></pre>
 <p>pada file wp-config.php yang ada di folder utama aplikasi web wordpress.</p>
-</div>
+</p>
 
+		
+			<span>dibuat : 2020-08-28</span>
+		
 
-	<span>dibuat : 2020-08-28</span>
+		
+			kategori :
+				<a href="/categories/catatan">catatan</a>
+		
+		
+		tag :
+		    
+		          <a href="/tags/wp">wp</a>
+			
+		          <a href="/tags/wordpress">wordpress</a>
+			
 
-
-<br>
-
-<br>
-
-	kategori :
-		<a href="/categories/catatan">catatan</a>
-
-
-
-tag :
-    
-          <a href="/tags/wp">wp</a>
-    
-          <a href="/tags/wordpress">wordpress</a>
-    
-
+		
 
 
 
-	        </div><hr>
-<div>kesempatan kedua with love</div>
-</div>
-    </body>
+	</div>
+</main>
+
+
+
+<footer>
+	<p>&copy;
+	 	<a style="color: black;" href="mailto:wahyudi.sigit@gmail.com">esweisme</a> 2019. 
+		
+		<a style="color: black;" href="#">rss</a>
+		<br>
+		Apa yang dari &#128151; akan sampai ke &#128151;.
+	</p>
+</footer>
+
+	<script type="text/javascript" src="/js/jquery-3.3.1.slim.min.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.tombol').click(function(){
+				$('nav').toggleClass("menu-tampil");
+			});
+		});
+	</script></body>
 </html>
