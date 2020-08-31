@@ -3,7 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://sigitwahyudi.netlify.app/categories/blog/</loc>
+    <lastmod>2020-08-30T10:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sigitwahyudi.netlify.app/blog/</loc>
+    <lastmod>2020-08-30T10:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sigitwahyudi.netlify.app/categories/</loc>
     <lastmod>2020-08-30T10:10:00+00:00</lastmod>
   </url>
   
@@ -24,11 +34,6 @@
   
   <url>
     <loc>https://sigitwahyudi.netlify.app/catatan/</loc>
-    <lastmod>2020-08-28T14:28:39+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sigitwahyudi.netlify.app/categories/</loc>
     <lastmod>2020-08-28T14:28:39+08:00</lastmod>
   </url>
   

@@ -2,10 +2,10 @@
 title: wordpress minta FTP akun saat update
 date: 2020-08-28T14:28:39.000+08:00
 categories: catatan
+description: cara agar wordpress self hosting tidak minta akun FTP saat self hosting
 tags:
 - wp
 - wordpress
-description: cara agar wordpress self hosting tidak minta akun FTP saat self hosting
 
 ---
 Pernahkah kalian saat ingin update ataupun install tema maupun plugin di wordpress namun muncul permintaan akun FTP ? Padahal, kita tidak pernah tau ataupun men-setting akun FTP pada wordpress.

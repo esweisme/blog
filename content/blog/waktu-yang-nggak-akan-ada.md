@@ -1,8 +1,9 @@
 +++
+title = "Waktu Yang Nggak Akan Ada"
 date = 2020-08-30T10:10:00Z
 description = "kenapa harus menunggu"
+categories = "blog"
 tags = []
-title = "Waktu Yang Nggak Akan Ada"
 
 +++
 Tidak perlu menunggu waktu yang tidak akan pernah datang.
