@@ -3,47 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://sigitwahyudi.netlify.app/categories/blog/</loc>
-    <lastmod>2020-08-30T10:10:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sigitwahyudi.netlify.app/blog/</loc>
-    <lastmod>2020-08-30T10:10:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sigitwahyudi.netlify.app/categories/</loc>
-    <lastmod>2020-08-30T10:10:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sigitwahyudi.netlify.app/</loc>
-    <lastmod>2020-08-30T10:10:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sigitwahyudi.netlify.app/blog/waktu-yang-nggak-akan-ada/</loc>
-    <lastmod>2020-08-30T10:10:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://sigitwahyudi.netlify.app/categories/catatan/</loc>
-    <lastmod>2020-08-28T14:28:39+08:00</lastmod>
+    <lastmod>2020-08-31T05:37:45+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://sigitwahyudi.netlify.app/catatan/</loc>
-    <lastmod>2020-08-28T14:28:39+08:00</lastmod>
+    <lastmod>2020-08-31T05:37:45+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sigitwahyudi.netlify.app/kontak/</loc>
-    <lastmod>2020-08-28T14:28:39+08:00</lastmod>
+    <loc>https://sigitwahyudi.netlify.app/categories/</loc>
+    <lastmod>2020-08-31T05:37:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sigitwahyudi.netlify.app/catatan/please-insert-disk-saat-install-adobe-photoshop/</loc>
+    <lastmod>2020-08-31T05:37:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sigitwahyudi.netlify.app/</loc>
+    <lastmod>2020-08-31T05:37:45+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://sigitwahyudi.netlify.app/tags/</loc>
+    <lastmod>2020-08-31T05:37:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sigitwahyudi.netlify.app/tags/windows/</loc>
+    <lastmod>2020-08-31T05:37:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sigitwahyudi.netlify.app/categories/blog/</loc>
+    <lastmod>2020-08-31T05:22:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sigitwahyudi.netlify.app/blog/</loc>
+    <lastmod>2020-08-31T05:22:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sigitwahyudi.netlify.app/blog/jangan-cemburu/</loc>
+    <lastmod>2020-08-31T05:22:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sigitwahyudi.netlify.app/kontak/</loc>
     <lastmod>2020-08-28T14:28:39+08:00</lastmod>
   </url>
   
@@ -60,6 +70,86 @@
   <url>
     <loc>https://sigitwahyudi.netlify.app/tags/wp/</loc>
     <lastmod>2020-08-28T14:28:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sigitwahyudi.netlify.app/catatan/autostart-lampp-pada-centos-7/</loc>
+    <lastmod>2020-02-19T05:32:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sigitwahyudi.netlify.app/tags/centos/</loc>
+    <lastmod>2020-02-19T05:32:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sigitwahyudi.netlify.app/tags/lampp/</loc>
+    <lastmod>2020-02-19T05:32:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sigitwahyudi.netlify.app/tags/linux/</loc>
+    <lastmod>2020-02-19T05:32:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sigitwahyudi.netlify.app/tags/xampp/</loc>
+    <lastmod>2020-02-19T05:32:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sigitwahyudi.netlify.app/blog/sayangi-dirimu/</loc>
+    <lastmod>2020-01-26T05:29:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sigitwahyudi.netlify.app/tags/antivirus/</loc>
+    <lastmod>2020-01-10T05:30:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sigitwahyudi.netlify.app/tags/virus/</loc>
+    <lastmod>2020-01-10T05:30:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sigitwahyudi.netlify.app/catatan/virus-segurazo/</loc>
+    <lastmod>2020-01-10T05:30:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sigitwahyudi.netlify.app/blog/mulai-dari-0/</loc>
+    <lastmod>2019-12-08T05:27:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sigitwahyudi.netlify.app/blog/sekarang-itu-sudah-baik/</loc>
+    <lastmod>2019-11-22T05:26:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sigitwahyudi.netlify.app/blog/follback/</loc>
+    <lastmod>2019-11-18T05:24:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sigitwahyudi.netlify.app/blog/belum-berhasil-itu-pertanda-baik/</loc>
+    <lastmod>2019-11-08T05:15:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sigitwahyudi.netlify.app/blog/waktu-yang-nggak-akan-ada/</loc>
+    <lastmod>2019-11-06T10:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sigitwahyudi.netlify.app/catatan/driverpack-tidak-jalan-saat-di-flashdisk/</loc>
+    <lastmod>2019-05-17T05:35:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sigitwahyudi.netlify.app/blog/orang-tua-kejam/</loc>
+    <lastmod>2019-02-06T04:54:03+00:00</lastmod>
   </url>
   
 </urlset>

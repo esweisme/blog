@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html><head>
-	<meta name="generator" content="Hugo 0.74.3" />
-    <title>Sigit Wahyudi</title>
+    <title>Autostart LAMPP pada CentOS 7</title>
 
-	<meta name="description" content="Sigit Wahyudi eswe TIK UBT Borneo Web Blog. bikin web dan aplikasi. programmer blogger Tarakan Kaltara "/>
+	<meta name="description" content="agar LAMPP autostart saat booting pada linux centos 7  "/>
 
 	<link href="/images/logo.JPG" rel="icon">
 	<link rel="stylesheet" href="/css/style.css" >
@@ -23,11 +22,42 @@
 
 <main>
 	<div class="content">
-		<img src="/images/sigit.jpg">
-		<p class="halo">Halo &#128516;, saya sigit wahyudi</p>
-		<p class="sapa">
-			Selamat datang di situs ini. Tulisan saya di sini belum sebaik tulisan profesional. Namun, jika menunggu sempurna saya tidak akan pernah berbagi. Saya memilih memulai. Saya yakin tulisan saya akan dibaca oleh orang dan pada saat yang tepat. Di sini kamu bisa membaca blog atau melihat project saya kedepan.
-		</p>
+		<h3>Autostart LAMPP pada CentOS 7</h3>
+
+		<p><p>Berikut cara agar XAMPP untuk linux atau LAMPP otomatis dijalankan pada saat booting server atau PC anda. yang saya gunakana adalah OS centOS 7 (linux) kemungkinan tidak jauh berbeda dengan OS linux lainnya.</p>
+<ol>
+<li>Buka file /etc/rc.d/rc.local</li>
+<li>Tambahkan <code>/opt/lampp/lampp start</code> pada akhir file.</li>
+<li>Buka console terminal</li>
+<li>Jalankan perintah <code>chmod +x /etc/rc.d/rc.local</code> untuk mengubah hak ases file.</li>
+<li>Uji coba dengan me-restart sistem.</li>
+</ol>
+</p>
+
+		
+			<span>dibuat : 2020-02-19</span>
+		
+
+		
+			kategori :
+				<a href="/categories/catatan">catatan</a>
+		
+		
+		tag :
+		    
+		          <a href="/tags/centos">centOs</a>
+			
+		          <a href="/tags/linux">linux</a>
+			
+		          <a href="/tags/xampp">xampp</a>
+			
+		          <a href="/tags/lampp">lampp</a>
+			
+
+		
+
+
+
 	</div>
 </main>
 

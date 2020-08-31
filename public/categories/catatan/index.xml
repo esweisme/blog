@@ -6,10 +6,20 @@
     <description>Recent content in catatan on Sigit Wahyudi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Aug 2020 14:28:39 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2020 05:37:45 +0000</lastBuildDate>
     
 	<atom:link href="https://sigitwahyudi.netlify.app/categories/catatan/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Please Insert Disk Saat Install Adobe Photoshop</title>
+      <link>https://sigitwahyudi.netlify.app/catatan/please-insert-disk-saat-install-adobe-photoshop/</link>
+      <pubDate>Mon, 31 Aug 2020 05:37:45 +0000</pubDate>
+      
+      <guid>https://sigitwahyudi.netlify.app/catatan/please-insert-disk-saat-install-adobe-photoshop/</guid>
+      <description>Saat ingin install Adobe Photoshop menggunakan Flash Disk ternyata muncul peringatan &amp;quot; Please Insert Disk &amp;ldquo;. Padahal sebelumya tidak ada masalah dalam instalasi dengan file installer yang sama.
+Solusinya dengan memindahkan file installernya ke hard disk lokal dahulu dan lakukan instalasi kembali.</description>
+    </item>
     
     <item>
       <title>Wordpress minta FTP akun saat update</title>
@@ -21,6 +31,36 @@
 Biasanya ini terjadi pada web yang menggunakan CMS wordpress dan hosting sendiri
 Anda Hanya perlu membahkan baris berikut
 /* Sets up direct update and install. */define(&#39;FS_METHOD&#39;, &#39;direct&#39;); pada file wp-config.php yang ada di folder utama aplikasi web wordpress.</description>
+    </item>
+    
+    <item>
+      <title>Autostart LAMPP pada CentOS 7</title>
+      <link>https://sigitwahyudi.netlify.app/catatan/autostart-lampp-pada-centos-7/</link>
+      <pubDate>Wed, 19 Feb 2020 05:32:58 +0000</pubDate>
+      
+      <guid>https://sigitwahyudi.netlify.app/catatan/autostart-lampp-pada-centos-7/</guid>
+      <description>Berikut cara agar XAMPP untuk linux atau LAMPP otomatis dijalankan pada saat booting server atau PC anda. yang saya gunakana adalah OS centOS 7 (linux) kemungkinan tidak jauh berbeda dengan OS linux lainnya.
+ Buka file /etc/rc.d/rc.local Tambahkan /opt/lampp/lampp start pada akhir file. Buka console terminal Jalankan perintah chmod +x /etc/rc.d/rc.local untuk mengubah hak ases file. Uji coba dengan me-restart sistem.  </description>
+    </item>
+    
+    <item>
+      <title>Virus Segurazo</title>
+      <link>https://sigitwahyudi.netlify.app/catatan/virus-segurazo/</link>
+      <pubDate>Fri, 10 Jan 2020 05:30:28 +0000</pubDate>
+      
+      <guid>https://sigitwahyudi.netlify.app/catatan/virus-segurazo/</guid>
+      <description>Permasalahan komputer lelet dan lemot biasanya ada dua.
+ Spesifikasi komputernya rendah sehingga untuk menjalankan banyak aplikasi membutuhkan waktu. Virus atau walmare yang menyebabkan resource dalam komputer dipakai berlebihan sehingga komputer berjalan lambat.  Untuk permasalahan point 1. bisa di atasi dengan meng upgrade spek komputer biasanya kita dapat menambah RAM. Sedangkan, untuk point kedua. Saya pernah mengalami komputer lelet karena malware yaitu aplikasi yang tidak diinginkan. Biasanya ikut terinstall ketika kita menginstall aplikasi dan mendownload dari internet.</description>
+    </item>
+    
+    <item>
+      <title>Driverpack Tidak Jalan Saat Di Flashdisk</title>
+      <link>https://sigitwahyudi.netlify.app/catatan/driverpack-tidak-jalan-saat-di-flashdisk/</link>
+      <pubDate>Fri, 17 May 2019 05:35:51 +0000</pubDate>
+      
+      <guid>https://sigitwahyudi.netlify.app/catatan/driverpack-tidak-jalan-saat-di-flashdisk/</guid>
+      <description>Saat ingin menjalankan Aplikasi Driverpack. Yang kebetulan saat itu filenya ada di flashdisk. Namun, tidak dapat berjalan (running)
+Setelah dicek ternyata solusinya adalah mematikan Smadav anti virus karena terdapat fitur untuk menolak aplikasi atau perintah yang dijalankan berada di USB Drive.atau dengan mematikan fitur tersebut.</description>
     </item>
     
   </channel>
