@@ -1,5 +1,4 @@
 ---
-title: "blog"
-summary: "Berisi blog tentang kehidupan dan apa yang dapat dirasakan serta di utarakan ulang"
-
+title: "Blog"
+summary: "Catatan tentang kehidupan, apa yang dirasakan serta di utarakan ulang"
 ---
