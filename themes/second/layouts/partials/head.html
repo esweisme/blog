@@ -5,7 +5,7 @@
 {{ if eq .Kind "section" }}
 	<meta name="description" content="{{.Summary}}"/>        
 {{ else }}
-	<meta name="description" content="{{ if .Description }}{{.Description}}{{ else if .Summary}}{{.Summary}}{{else}}{{.Site.Params.Description}}{{end}}"/>
+	<meta name="description" content="{{ if .Description }}{{.Description}}{{ else }}{{.Site.Params.Description}}{{end}}"/>
 {{ end }}
 	<link href="/images/logo.JPG" rel="icon">
 	<link rel="stylesheet" href="/css/style.css" >
