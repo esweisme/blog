@@ -16,7 +16,7 @@
 	<meta itemprop="image" content="{{ .Site.BaseURL }}images/logo.JPG">
 
 	<!-- Facebook Meta Tags -->
-	<meta property="og:url" content="<?php echo BASE_URL; echo $uri; ?>">
+	<meta property="og:url" content="{{ .Permalink }}">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="{{.Title}}">
 	<meta property="og:description" content="{{ if .Description }}{{.Description}}{{ else if .Summary}}{{.Summary}}{{else}}{{.Site.Params.Description}}{{end}}">
