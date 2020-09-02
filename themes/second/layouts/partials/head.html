@@ -2,13 +2,13 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{.Title}}</title>
-	{{ if eq .Kind "section" }}<meta name="description" content="{{.Section}} {{.Summary}} | sigit wahyudi"/>{{ else }}<meta name="description" content="{{ if .Description }}{{.Description}}{{ else }}{{.Site.Params.Description}}{{end}}"/>{{ end }}
+	{{ if eq .Kind "section" }}<meta name="description" content="{{.Section}} {{.Params.Summary}}| Sigit Wahyudi"/>{{ else }}<meta name="description" content="{{ if .Description }}{{.Description}}{{ else }}{{.Site.Params.Description}}{{end}}"/>{{ end }}
 	<link href="/images/logo.JPG" rel="icon">
 	<link rel="stylesheet" href="/css/style.css" >
 
 	<!-- Google / Search Engine Tags -->
 	<meta itemprop="name" content="{{.Title}}">
-	<meta itemprop="description" content="{{ if .Description }}{{.Description}}{{ else if .Summary}}{{.Summary}}{{else}}{{.Site.Params.Description}}{{end}}">
+	<meta itemprop="description" content="{{ if .Description }}{{ .Description }}{{ else if .Summary }}{{.Summary}}{{else}}{{.Site.Params.Description}}{{end}}">
 	<meta itemprop="image" content="{{ .Site.BaseURL }}images/logo.JPG">
 
 	<!-- Facebook Meta Tags -->
