@@ -2,7 +2,7 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{.Title}}</title>
-	<meta name="description" content="{{ if .Description }}{{.Description}}{{ else if .Summary}}{{.Summary}}{{else}}{{.Site.Params.Description}}{{end}}"/>
+	<meta name="description" content="{{if .Description}}{{.Description}}{{ else if .Summary}}{{.Summary}}{{else}}{{.Site.Params.Description}}{{end}}"/>
 	<link href="/images/logo.JPG" rel="icon">
 	<link rel="stylesheet" href="/css/style.css" >
 
