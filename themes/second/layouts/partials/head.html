@@ -2,8 +2,7 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{.Title}}</title>
-	<meta name="description" content='{{if eq .Kind "section" }}{{.Summary}}{{ else if .Description }}{{.Description}}{{ else }}{{.Site.Params.Description}}{{end}}'/>        
-
+	{{ if eq .Kind "section" }}<meta name="description" content="{{.Summary}} | sigit wahyudi"/>{{ else }}<meta name="description" content="{{ if .Description }}{{.Description}}{{ else }}{{.Site.Params.Description}}{{end}}"/>{{ end }}
 	<link href="/images/logo.JPG" rel="icon">
 	<link rel="stylesheet" href="/css/style.css" >
 
