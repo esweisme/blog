@@ -2,6 +2,7 @@
 categories = "blog"
 date = 2019-11-06T10:10:00Z
 description = "kenapa harus menunggu"
+slug = "waktu-yang"
 tags = []
 title = "Waktu Yang Nggak Akan Ada"
 
