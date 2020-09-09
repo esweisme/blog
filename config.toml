@@ -1,0 +1,34 @@
+baseURL = "https://www.sigitwahyudi.web.id/"
+languageCode = "en-us"
+theme = "second"
+
+[permalinks]
+  blog = ":slug"
+  catatan = ":slug"
+
+title = "Sigit Wahyudi"
+
+[Params]
+Description = "Sigit Wahyudi eswe TIK UBT Borneo Web Blog. bikin web dan aplikasi. programmer blogger Tarakan Kaltara"
+twitter = "https://www.twitter.com/eswetwit"
+Description = "Sigit Wahyudi eswe TIK UBT Borneo Web Blog. bikin web dan aplikasi. programmer blogger Tarakan Kaltara"
+
+[menu]
+
+	[[menu.main]]
+	name = "Beranda"
+	url = "/"
+
+	[[menu.main]]
+	name = "Blog"
+	url = "/blog"
+	
+
+	[[menu.main]]
+	name = "Catatan"
+	url = "/catatan"
+
+
+	[[menu.main]]
+	name = "Hubungi"
+	url = "/kontak"
