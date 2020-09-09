@@ -5,7 +5,7 @@ description = "kenapa harus menunggu"
 slug = "waktu-yang"
 tags = []
 title = "Waktu Yang Nggak Akan Ada"
-slug = ""
+slug = "waktu"
 
 +++
 Tidak perlu menunggu waktu yang tidak akan pernah datang.
