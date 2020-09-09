@@ -1,4 +1,5 @@
 <head>
+
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{.Title}}</title>
@@ -22,4 +23,5 @@
 	<meta name="twitter:title" content="{{.Title}}">
 	{{ if eq .Kind "section" }}<meta name="twitter:description" content="{{.Title}} - {{.Params.Summary}} | Sigit Wahyudi"/>{{ else }}<meta name="twitter:description" content="{{ if .Description }}{{.Description}}{{ else }}{{.Site.Params.Description}}{{end}}"/>{{ end }}
 	<meta name="twitter:image" content="{{ .Site.BaseURL }}images/logo.JPG">
+
 </head>

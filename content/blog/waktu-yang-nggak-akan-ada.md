@@ -4,6 +4,7 @@ date = 2019-11-06T10:10:00Z
 description = "kenapa harus menunggu"
 tags = []
 title = "Waktu Yang Nggak Akan Ada"
+slug = ""
 
 +++
 Tidak perlu menunggu waktu yang tidak akan pernah datang.
