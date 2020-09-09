@@ -1,13 +1,12 @@
 +++
+title = "Waktu Yang Nggak Akan Ada"
 categories = "blog"
 date = 2019-11-06T10:10:00Z
 description = "kenapa harus menunggu"
-slug = "waktu-yang"
-tags = []
-title = "Waktu Yang Nggak Akan Ada"
 slug = "waktu"
-
+tags = []
 +++
+
 Tidak perlu menunggu waktu yang tidak akan pernah datang.
 
 Waktu kita merasa **suci** untuk mengajak kebaikan.
