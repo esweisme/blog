@@ -31,3 +31,8 @@ twitter = "https://www.twitter.com/eswetwit"
 	[[menu.main]]
 	name = "Hubungi"
 	url = "/kontak"
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
