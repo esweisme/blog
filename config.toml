@@ -1,17 +1,16 @@
 baseURL = "https://www.sigitwahyudi.web.id/"
 languageCode = "en-us"
 theme = "second"
+title = "Sigit Wahyudi"
 
 [permalinks]
   blog = ":slug"
   catatan = ":slug"
 
-title = "Sigit Wahyudi"
 
 [Params]
 Description = "Sigit Wahyudi eswe TIK UBT Borneo Web Blog. bikin web dan aplikasi. programmer blogger Tarakan Kaltara"
 twitter = "https://www.twitter.com/eswetwit"
-Description = "Sigit Wahyudi eswe TIK UBT Borneo Web Blog. bikin web dan aplikasi. programmer blogger Tarakan Kaltara"
 
 [menu]
 
