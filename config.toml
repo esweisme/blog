@@ -1,7 +1,7 @@
 baseURL = "https://www.sigitwahyudi.web.id/"
 languageCode = "en-us"
-title = "Sigit Wahyudi"
 theme = "second"
+title = "Sigit Wahyudi"
 [Params]
-twitter = "https://www.twitter.com/eswetwit"
 Description = "Sigit Wahyudi eswe TIK UBT Borneo Web Blog. bikin web dan aplikasi. programmer blogger Tarakan Kaltara"
+twitter = "https://www.twitter.com/eswetwit"
